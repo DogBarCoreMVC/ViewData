@@ -46,3 +46,7 @@
         }
     </tbody>
 </table>
+     
+ <!--การรับข้อมูลจากคลาส ViewData ใน View ของไฟล์ส่วนแสดงผล Index.cshtml โดยที่
+    1.ข้อมูลสินค้ายังคงอยู่ในรูปแบบเป็นชุด (@model IEnumerable<ViewBag.Models.Product)
+    2.การอ่านค่าข้อมูลในคลาส ViewData ต้องทำการแปลงข้อมูลให้กลายเป็นชุดข้อมูลแบบ IEnumerable ก่อนค่าอ่าน (var item in (IEnumerable<Product>)ViewData["ProductList"]))-->
